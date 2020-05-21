@@ -51,7 +51,7 @@ var animal = prompt(' パンダ・ライオン・キリンどれかを入力し�
 var i = 0;
 while (i < animals.length) {
   if (animal === 'ライオン' && animals[i] === 'ライオン') {
-    alert('1');
+    alert(animals.indexOf('ライオン'));
     break;
   }　
   alert(animals[i]);
